@@ -12,8 +12,7 @@ from scipy.sparse.linalg import gmres
 
 a=100 #radio
 
-sep=int(1001)
-m=int(90)
+'''
 x = np.linspace(-1, 1, num=sep)
 ang=np.arccos(x)
 grad=ang*180/(mt.pi) #cambiamos de radianes a grados
@@ -25,19 +24,29 @@ b=0.0001
 n=20 #número de partículas
 al=1.0/0.1 #alfa
 bt=1
+'''
 
 
 
 
-
-def cm(mc,cf,x):
+def Cm(mc,cf,x):
     cm=np.zeros(mc)
-    for mc in range(0,150):
+    for mc in range(0,mc):
         #vamos a calcular los coeficientes cm
         pol=(eval_legendre(mc, x))
         y = pol*cf
         cm[mc]=(2*mc+1)*(integrate.simpson(y, x))/2
     return(cm)
+
+def Potencial(b,kp,al,n):
+    x = np.linspace(-1, 1, num=sep)
+    ang=np.arccos(x)
+    grad=ang*180/(mt.pi) #cambiamos de radianes a grados
+    r=2*a*np.sin(ang/2)
+    np.place(r, r==0, [1e-9])
+    #para el potencial
+    u=b*np.exp(-kp*r)*(1-np.exp(-al*r))/(r)
+    return u
 
 def Gmres(A,B,x0,nm,tol):
     xs=x0
@@ -73,31 +82,15 @@ def Gmres(A,B,x0,nm,tol):
             break
     return xs
 
-###############################################################################
-###############################################################################
-#iniciamos las matrices
-
-dim=int(2*sep+2*m)
-
-def genA(gaf,):
-    #iniciamos nuestra matriz
-    A=np.zeros((dim,dim))
-    x = np.linspace(-1, 1, num=sep)
-    ang=np.arccos(x)
-    grad=ang*180/(mt.pi) #cambiamos de radianes a grados
-    r=2*a*np.sin(ang/2)
-    np.place(r, r==0, [1e-9])
-    #para el potencial
-    kp=1.0/9.6
-    #b=1510.01 #amplitud del potencial
-    b=0.0001
-    n=20 #número de partículas
-    al=1.0/0.1 #alfa
+def genA(gaf,u,m,sep,n):
     bt=1
-    u=b*np.exp(-kp*r)*(1-np.exp(-al*r))/(r)
+    x = np.linspace(-1, 1, num=sep)
+    #iniciamos nuestra matriz
+    dim=int(2*sep+2*m)
+    A=np.zeros((dim,dim))
     cf=np.exp(gaf-bt*u)-1-gaf
     a11=1-np.exp(gaf-bt*u)
-    cm=cm(m,cf,x)
+    cm=Cm(m,cf,x)
 
     ################################################################################
     #la parte de a11
@@ -172,26 +165,19 @@ def genA(gaf,):
     return A
 
 ##### ahora construimos el vector B ##############################################
-def genB(gaf):
-    #iniciamos el vector
-    B=np.zeros((dim))
+def genB(gaf,u,m,sep,n):
     x = np.linspace(-1, 1, num=sep)
-    ang=np.arccos(x)
-    grad=ang*180/(mt.pi) #cambiamos de radianes a grados
-    r=2*a*np.sin(ang/2)
-    np.place(r, r==0, [1e-9])
-    #para el potencial
-    kp=1.0/9.6
-    #b=1510.01 #amplitud del potencial
-    b=0.0001
-    n=20 #número de partículas
-    al=1.0/0.1 #alfa
+    #iniciamos el vector
+    dim=int(2*sep+2*m)
+    B=np.zeros((dim))
     bt=1
-    u=b*np.exp(-kp*r)*(1-np.exp(-al*r))/(r)
     cf=np.exp(gaf-bt*u)-1-gaf
     a11=1-np.exp(gaf-bt*u)
-    cm=cm(m,cf,x)
+    cm=Cm(m,cf,x)
     gam=np.zeros((m))
+    sep2=int(2*sep)
+    sep3=int(sep2+m)
+    sep4=int(sep2+m+m)
     for s in range(0,m):
         gam[s]=cm[s]*(n/(2*s+1))*cm[s]*(1.0/(1-n*cm[s]/(2*s+1)))
 
@@ -226,35 +212,66 @@ def genB(gaf):
         x1=x1+dx
     psc=np.dot(Ps,cf)
     for s in range(0,sep):#aquí va F1
-        B[s]=cf[s]+gaf[s]+1-np.exp(-bt*u[s]+gaf[s])
+        B[s]=-(cf[s]+gaf[s]+1-np.exp(-bt*u[s]+gaf[s]))
 
     for s in range(sep,sep2): #aquí va F2
-        B[s]=gaf[s-sep]-pg[s-sep]
+        B[s]=-(gaf[s-sep]-pg[s-sep])
 
     for s in range(sep2,sep3): #aquí va F3
-        B[s]=cm[s-sep2]-psc[s-sep2]
+        B[s]=-(cm[s-sep2]-psc[s-sep2])
 
     for s in range(sep3,sep4): #aquí va F4
         m1=s-sep3
         B[s]=-(gam[s-sep3]-(n/(2*m1+1))*cm[s-sep3]**2*(1.0/(1-n*cm[s-sep3]/(2*m1+1))))
+    return B
 
+sep=int(1001)
+m=int(90)
+kp=1.0/9.6
+##b=1510.01 #amplitud del potencial
+#b=0.0001
+n=20 #número de partículas
+al=1.0/0.1 #alfa
+bt=1
+nmax=2303
+tol=1e-05
+anterior=gaf
+u=Potencial(b,kp,al,n)
+
+dim2=int(2*sep+2*m)
 np.random.seed(0)
-x0=np.random.random(dim)
-#x0=np.zeros(dim)
-for s in range(dim):
-   x0[s]=x0[s]*1e-05
-'''
-for s in range(0,sep):
-    x0[s]=gaf[s]
-for s in range(sep,sep2):
-    x0[s]=cf[s-sep]
-for s in range(sep2,sep3):
-    x0[s]=gam[s-sep2]
-for s in range(sep3,sep4):
-    x0[s]=cm[s-sep3]
-'''
-for
-    nmax=2303
-    tol=1e-09
+x0=np.random.random(dim2)
+x0=1e-09*x0
+
+#gaf=(np.random.random(sep))*1e-08
+gaf=np.loadtxt('20gmcgb.txt',usecols=0,skiprows=1,delimiter=', ')
+for p in range(0,100):
+
+    A=genA(gaf,u,m,sep,n)
+    B=genB(gaf,u,m,sep,n)
     xs = Gmres(A, B, x0,nmax,tol)
-np.savetxt('solucion.txt', np.transpose([xs]))
+    dgaf=np.zeros((sep))
+    dcf=np.zeros((sep))
+    sep2=int(2*sep)
+    for s in range(0,sep):
+        xs[s]=dgaf[s]
+    gaf=gaf+dgaf
+    resta=np.allclose(gaf, anterior, rtol=1e-05, atol=1e-07, equal_nan=True)
+    print('diferencia entre la gamma anterior y la nueva:',resta)
+    if(resta==True):
+        print('se llegó a la solución FINAL')
+        cf=np.exp(gaf-bt*u)-1-gaf
+        break
+    else:
+        x0=xs
+
+#construimos la función de correlación
+g=gaf+cf+1
+np.savetxt('solucion.txt', np.transpose([gaf,cf,g]))
+x = np.linspace(-1, 1, num=sep)
+ang=np.arccos(x)
+grad=ang*180/(mt.pi) #cambiamos de radianes a grados
+r=2*a*np.sin(ang/2)
+np.place(r, r==0, [1e-9])
+plt.plot(grad,g)
+plt.show()
