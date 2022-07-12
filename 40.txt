@@ -1,0 +1,1298 @@
+se terminó de calcular la matriz de polinomios
+20
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.3241385043174148e-20
+se llegó a la solución FINAL
+21
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.751884804535068e-21
+se llegó a la solución FINAL
+22
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4772201006442247e-21
+se llegó a la solución FINAL
+23
+El valor maximo de B es: 2.7755575615628914e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.7864789134566528e-20
+se llegó a la solución FINAL
+24
+El valor maximo de B es: 2.7755575615628914e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.509040211135772e-20
+se llegó a la solución FINAL
+25
+El valor maximo de B es: 2.7755575615628914e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.1203424084063106e-20
+se llegó a la solución FINAL
+26
+El valor maximo de B es: 6.938893903907228e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.3034459402665927e-19
+se llegó a la solución FINAL
+27
+El valor maximo de B es: 8.326672684688674e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.552721910920054e-21
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 2.2728617222882938e-20
+se llegó a la solución FINAL
+28
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.5764748939990835e-20
+se llegó a la solución FINAL
+29
+El valor maximo de B es: 8.326672684688674e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 2.2498854483313556e-19
+El valor maximo de B es: 8.326672684688674e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 2.1694455505194178e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.5946432777872144e-19
+El valor maximo de B es: 8.326672684688674e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.2835699448475807e-19
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.9392414240025346e-19
+se llegó a la solución FINAL
+30
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.565846938124743e-19
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.329175012391571e-19
+se llegó a la solución FINAL
+31
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.57257644327007e-19
+se llegó a la solución FINAL
+32
+El valor maximo de B es: 8.326672684688674e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.6367314273645223e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.498199499800621e-19
+El valor maximo de B es: 8.326672684688674e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.625603954158533e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.625572778785588e-19
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.8970586416000258e-19
+se llegó a la solución FINAL
+33
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.668425383704874e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.19087703197302e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.538518066701241e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.538833473754459e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.463524891818088e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.9747843989954437e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 2.0519990126583883e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 2.29814997475929e-19
+El valor maximo de B es: 1.942890293094024e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 2.35297823810549e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.660614375358763e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.660589047517934e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.370067671228117e-19
+El valor maximo de B es: 2.498001805406602e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.8133303909672913e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.2588823225057343e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.6563098323231073e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 2.6619577783822923e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.049377181641384e-19
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.0069085304305774e-19
+se llegó a la solución FINAL
+34
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 2.9247241223725154e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 2.8310104872926807e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.288026624237315e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.8399266979009905e-19
+El valor maximo de B es: 1.942890293094024e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.7262889285940434e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.601506855237314e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.248099198584066e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.2146827541442934e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.247436362105602e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.8060361383999964e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.7042418983984123e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.7615550749134443e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.7298117151262533e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.47031031192914e-19
+El valor maximo de B es: 8.326672684688674e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.458307879517991e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.0292657331446605e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.0290769578931774e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.6867818575691165e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.623465371173844e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.629264145223979e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.223609101590643e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.1282840140580185e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.10730182953597e-19
+El valor maximo de B es: 8.326672684688674e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.1073037538718565e-19
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.10723560872011e-19
+se llegó a la solución FINAL
+35
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 2.7808201396506263e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.783923163683336e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.474332278779917e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.073559247963232e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.165746955179092e-19
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.302037853088557e-19
+se llegó a la solución FINAL
+36
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.265328020569759e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.983361940712783e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.983551325999237e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.994576478285495e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.994658293569943e-19
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.090400856328469e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.090515510335982e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.637826207215534e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.1513584707907337e-19
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.1641455229894364e-19
+se llegó a la solución FINAL
+37
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 2.8350108561783994e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.17758482906225e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.730100875604937e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.0473633544798737e-19
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.826853516305911e-19
+se llegó a la solución FINAL
+38
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.0473718975071472e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.915958216713155e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.09992754821982e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.7980143201132245e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.0925830353408293e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.2282769827119553e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.228284920364314e-19
+El valor maximo de B es: 3.885780586188048e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.714185707092452e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.540151970567796e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.500700694834483e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.500681560728845e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.843329198216183e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.791249101044707e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.791254068285809e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.875900664033834e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.8759015552894108e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.010233661471794e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.987536082901562e-19
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.069121630725129e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.9392711882099585e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.123725206481661e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.9171507126280706e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.0251029569238934e-19
+El valor maximo de B es: 1.942890293094024e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.963713896087099e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.918475859659263e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.9424560346176793e-19
+El valor maximo de B es: 5.551115123125783e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.9495975034452684e-19
+se llegó a la solución FINAL
+39
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.942437576128032e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.942358513488622e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.2294905912742777e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.1930642303749986e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.9063200042170985e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.466899879520315e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.927114253589801e-19
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.452983691099327e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.063901443128147e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.505436895601098e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.107184352499219e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.1071739461807e-19
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.920445559398956e-19
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.398301124191868e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.440049035667091e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.661902522642145e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.028313990561747e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.525158346601205e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.714565093531792e-19
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.949075363907553e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.304282630072928e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.532067684744346e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.279612259304587e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.918463271807294e-19
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.91844656546063e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.662542884560666e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.66269174145185e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.731001170982323e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.73104967128178e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.65459728003338e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.629513120542411e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.629497310937614e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.539673909186462e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.539572780499015e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.023476812104289e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.809989115365792e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.1553095963260779e-18
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.3114825442460761e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.2843551929601611e-18
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.1500989098365258e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.1524065608578359e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.1980109742843516e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.5510058645000968e-18
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.5510126291804752e-18
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.8571484926329148e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.729332397243796e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.7293386993968134e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.2288749223814175e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.268167898028258e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.1768131279774385e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.139486031223235e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.1118968484422754e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.5973029156846267e-18
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.6219491680303874e-18
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4772604378847575e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4684513879277444e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4921446069143986e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4921451191270225e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4291527506644794e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4294986458515141e-18
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4248038949675436e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4512939233761715e-18
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4589373988666214e-18
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.486980107319673e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4720397927680932e-18
+El valor maximo de B es: 1.942890293094024e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.453633200092654e-18
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4156572661918065e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4062822945573405e-18
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.4369907839435654e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.470552361226558e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.3704157715324467e-18
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.3804883341266661e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.3484800719972962e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.359182018965253e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.2605470099053095e-18
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.2372000882712523e-18
+El valor maximo de B es: 2.498001805406602e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.2372001791928664e-18
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.1507908881089347e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.0469307710453726e-18
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.0311857865924592e-18
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.467491420139975e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.467635901338802e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.629852398371988e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.496531741481463e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.533468718024328e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.53330881928901e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.07402401200072e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.5993888501206645e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.861335163570019e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.86128866950889e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.010828088340393e-18
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.99571550369648e-19
+El valor maximo de B es: 1.942890293094024e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.798510178172499e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.016478713584071e-18
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.050354628592675e-18
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.0457954728106516e-18
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.0539149682031875e-18
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.0235176319759902e-18
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.70800450676732e-19
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.809535550854219e-19
+40
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.529122645051035e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.39664597939321e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.2774399822899428e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.2774228055479104e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.186152879841814e-18
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.1334955956789112e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.1810965115571614e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.0834630960946363e-18
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.958979929321692e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.959029983883005e-19
+El valor maximo de B es: 1.942890293094024e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.428696123279944e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.851861556330501e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.729415055228809e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.501930367688253e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.407160769746099e-19
+El valor maximo de B es: 2.498001805406602e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.5002256492074985e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.500280734687166e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.337891201885855e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.082511836558159e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.473311576544566e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.916680271878322e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.837567553427847e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.837331918999648e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.0160562379980665e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.278778662360898e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.0315843596292108e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.708963243943126e-19
+El valor maximo de B es: 1.942890293094024e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.946541729663989e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.0410332932400543e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.1094180494040918e-18
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.1094063070841588e-18
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 1.1094046727028772e-18
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.70920735172072e-19
+El valor maximo de B es: 3.885780586188048e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.709040632697048e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.91840842499851e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.859687965692016e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.567514302254422e-19
+El valor maximo de B es: 8.326672684688674e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 9.568156282854237e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.761555088811917e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.624225969771509e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.8049080208821825e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.147854793622909e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.903844758625932e-19
+El valor maximo de B es: 1.942890293094024e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.870389119182144e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.753791256763128e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.746625755112386e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.147148631119578e-19
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.403729316328622e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.177412284590017e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.597230193377675e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.416031353215547e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.904065731075224e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.903875763212792e-19
+El valor maximo de B es: 3.3306690738754696e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.903887827461799e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.974259111516473e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.7250863851040195e-19
+El valor maximo de B es: 8.326672684688674e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.244032076143708e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.848449572699816e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.890999248228069e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.273121403578486e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 8.728072560466535e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.193958198750609e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.193915086731454e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 7.193904251204422e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.9330623654432215e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.247064950448135e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.054454862728688e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.0702158423573884e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.070058667263386e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.596340247793506e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.84653273509588e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.795224373364063e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.44663418524237e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.634031967698925e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.738220963203189e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.1026578489505136e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.539259011402279e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.582419706917848e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.577061859262147e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.0250415787318615e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.380064039739336e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.954534078095202e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.3065129840097223e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.3065011187176943e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.5861176055966955e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 3.5938101238437475e-19
+El valor maximo de B es: 8.326672684688674e-17
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.362850654213518e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.980973786918968e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.007102358120581e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.829098804642114e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.599257934093448e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.138941270099362e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.789779919804628e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.57558362056238e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.636534910697734e-19
+El valor maximo de B es: 1.1102230246251565e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 6.925343337738124e-19
+El valor maximo de B es: 2.7755575615628914e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.883313323124411e-19
+El valor maximo de B es: 1.3877787807814457e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.662521037558995e-19
+El valor maximo de B es: 1.6653345369377348e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 4.746364083667786e-19
+El valor maximo de B es: 2.220446049250313e-16
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+El valor máximo de xs es: 5.298719642580493e-19
+19844.742 s

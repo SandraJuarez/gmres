@@ -62,12 +62,12 @@ def Potencial(b,kp,al,a):
     #para el potencial
     u=b*np.exp(-kp*r)*(1-np.exp(-al*r))/(r)
     return u
-
+#vamos a generar la A precondicionada
 def GenA(D,N,ex,c,gam,dim,sep,m):
     A=np.zeros((dim,dim))
     for n in range(0,sep):
         for l in range(0,m):
-            A[l,n]=(1-(N/(2*l+1))*c[l])-ex[n]*(N/(2*l+1))*(gam[l]-2*c[l])
+            A[l,n]=1/(1-(N/(2*l+1))*c[l])*((1-(N/(2*l+1))*c[l])-ex[n]*(N/(2*l+1))*(gam[l]-2*c[l]))
     return A
 
 def GenB(gam,N,c,dim,m):
@@ -76,7 +76,7 @@ def GenB(gam,N,c,dim,m):
         B[l]=-(gam[l]-N/(2*l+1)*(c[l]+gam[l])*c[l])
     return B
 
-sep=int(1001)
+sep=int(4001)
 dim=sep
 m=sep
 
@@ -85,8 +85,8 @@ m=sep
 #np.random.seed(0)
 #gaf=np.random.random(dim)
 #gaf=gaf*1e-03
-gaf=np.loadtxt('20gmcgb.txt',usecols=0,skiprows=1,delimiter=', ')
-gaf1=np.loadtxt('20gmcgb.txt',usecols=0,skiprows=1,delimiter=', ')
+gaf=np.loadtxt('204mgmcgb.txt',usecols=0,skiprows=1,delimiter=', ')
+gaf1=np.loadtxt('204mgmcgb.txt',usecols=0,skiprows=1,delimiter=', ')
 #np.random.seed(0)
 #x0=np.random.random(dim)
 #x0=np.loadtxt('20gmcgb.txt',usecols=0,skiprows=1,delimiter=', ')
@@ -108,7 +108,7 @@ kp=1.0/9.6
 b=1510.01 #amplitud del potencial
 #b=1e-12
 #b=0.0001
-N=30 #número de partículas
+N=20 #número de partículas
 al=1.0/0.1 #alfa
 bt=1
 
@@ -116,6 +116,15 @@ nmax=2303
 tol=1e-9
 u=Potencial(b,kp,al,a)
 
+#vamos a generar una sola vez los polinomios de Legendre que necesitamos y guardarlos en una matriz
+pol=np.zeros((dim,dim))
+x1=-1
+dx=2/sep
+for n in range(0,sep):
+    for l in range(0,m):
+        pol[l,n]=eval_legendre(l,x1)
+    x1=x1+dx
+print('se terminó de calcular la matriz de polinomios')
 #vamos a calcular la matriz Dln
 D=np.zeros((dim,dim))
 x1=-1
@@ -123,8 +132,7 @@ dx=2/sep
 for n in range(0,sep):
     w=sep-1
     for l in range(0,m):
-        pol=eval_legendre(l,x1)
-        fun=pol
+        fun=pol[l,n]
         m1=dx*(2*l+1)/6
         #m1=dx/3
         mod=n%2
@@ -138,57 +146,49 @@ for n in range(0,sep):
             D[l,n]=m1*fun
     x1=x1+dx
 #####################################################################################
-for p in range(0,100):
-    anterior=gaf
-    cf=np.exp(gaf-bt*u)-1-gaf
-    ex=np.exp(gaf-bt*u)-1
-    #print(cf)
-    #calculamos las sumatorias:
+nf=40
+ni=20
+au=0.5
 
-    c=np.zeros((m))
-    gam=np.zeros((m))
+fin=int((nf-ni)/au)
+for nc in range(0,fin+1):
+    print(N)
+    for p in range(0,700):
+        anterior=gaf
+        cf=np.exp(gaf-bt*u)-1-gaf
+        ex=np.exp(gaf-bt*u)-1
+        #print(cf)
+        #calculamos las sumatorias:
 
-    for l in range(0,m):
-        sum=0.0
+        c=np.zeros((m))
+        gam=np.zeros((m))
+
+        for l in range(0,m):
+            sum=0.0
+            for n in range(0,sep):
+                sum+=D[l,n]*cf[n]
+            c[l]=sum
+            gam[l]=c[l]*(N/(2*l+1))*c[l]*(1.0/(1.0-N*c[l]/(2*l+1)))
+
+
+        A=GenA(D,N,ex,c,gam,dim,sep,m)
+        B=GenB(gam,N,c,dim,m)
+        xs = Gmres(A, B, x0,nmax,tol)
+
+        gam=gam+xs
+        sumg=0.0
         for n in range(0,sep):
-            sum+=D[l,n]*cf[n]
-        c[l]=sum
-        gam[l]=c[l]*(N/(2*l+1))*c[l]*(1.0/(1.0-N*c[l]/(2*l+1)))
-    '''
-    print('Usando la matriz obtenemos:',c[1])
+            poli=pol[n,:]
+            sumg=sumg+poli*gam[n]
+        gaf=sumg
 
-    c=np.zeros((m))
-    gam=np.zeros((m))
-    for l in range(0,m):
-        #vamos a calcular los coeficientes cm
-        pol=(eval_legendre(l, x))
-        y = pol*cf
-        c[l]=(2*l+1)*(integrate.simpson(y, dx=dx))/2
-        #y con esos coeficientes calculamos gamma_m
-        gam[l]=c[l]*(N/(2*l+1))*c[l]*(1.0/(1-N*c[l]/(2*l+1)))
-    print('Usando simpson obtenemos:',c[1])
-    '''
-
-    A=GenA(D,N,ex,c,gam,dim,sep,m)
-    B=GenB(gam,N,c,dim,m)
-    print('El valor maximo de B es:',np.max(np.abs(B)))
-    xs = Gmres(A, B, x0,nmax,tol)
-    print('El valor máximo de xs es:',np.max(np.abs(xs)))
-
-    gam=gam+xs
-    sumg=0.0
-    for n in range(0,sep):
-        pol=(eval_legendre(n, x))
-        sumg=sumg+pol*gam[n]
-    gaf=sumg
-
-    #resta=np.allclose(gaf, anterior, rtol=1e-06, atol=1e-07, equal_nan=True)
-    if(np.max(np.abs(B))<1e-17):
-        print('se llegó a la solución FINAL')
-        break
-    else:
-        x0=xs
-
+        resta=np.allclose(gaf, anterior, rtol=1e-06, atol=1e-07, equal_nan=True)
+        if(np.max(np.abs(B))<8e-17):
+            print('se llegó a la solución FINAL')
+            break
+        else:
+            x0=xs
+    N=N+au
 np.savetxt('solucion2.txt',np.transpose([gaf]))
 plt.plot(grad,gaf,'g-*')
 plt.plot(grad,gaf1,'r-*')

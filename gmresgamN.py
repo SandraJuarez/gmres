@@ -147,58 +147,49 @@ for n in range(0,sep):
             D[l,n]=m1*fun
     x1=x1+dx
 #####################################################################################
-for p in range(0,100):
-    anterior=gaf
-    cf=np.exp(gaf-bt*u)-1-gaf
-    ex=np.exp(gaf-bt*u)
-    #print(cf)
-    #calculamos las sumatorias:
+nf=40
+nf2=nf+0.5
+for nc in range(20,nf2):
+    print(N)
+    for p in range(0,100):
+        anterior=gaf
+        cf=np.exp(gaf-bt*u)-1-gaf
+        ex=np.exp(gaf-bt*u)
+        #print(cf)
+        #calculamos las sumatorias:
 
-    c=np.zeros((m))
-    gam=np.zeros((m))
+        c=np.zeros((m))
+        gam=np.zeros((m))
 
-    for l in range(0,m):
-        sum=0.0
-        for n in range(0,sep):
-            sum+=D[l,n]*cf[n]
-        c[l]=sum
-        gam[l]=c[l]*(N/(2*l+1))*c[l]*(1.0/(1.0-N*c[l]/(2*l+1)))
-    '''
-    print('Usando la matriz obtenemos:',c[1])
+        for l in range(0,m):
+            sum=0.0
+            for n in range(0,sep):
+                sum+=D[l,n]*cf[n]
+            c[l]=sum
+            gam[l]=c[l]*(N/(2*l+1))*c[l]*(1.0/(1.0-N*c[l]/(2*l+1)))
 
-    c=np.zeros((m))
-    gam=np.zeros((m))
-    for l in range(0,m):
-        #vamos a calcular los coeficientes cm
-        pol=(eval_legendre(l, x))
-        y = pol*cf
-        c[l]=(2*l+1)*(integrate.simpson(y, dx=dx))/2
-        #y con esos coeficientes calculamos gamma_m
-        gam[l]=c[l]*(N/(2*l+1))*c[l]*(1.0/(1-N*c[l]/(2*l+1)))
-    print('Usando simpson obtenemos:',c[1])
-    '''
 
-    A=GenA(D,N,ex,c,gam,dim,sep,m)
-    B=GenB(gam,N,c,dim,m)
-    print('El valor maximo de B es:',np.max(np.abs(B)))
-    xs = Gmres(A, B, x0,nmax,tol)
-    print('El valor máximo de xs es:',np.max(xs))
+        A=GenA(D,N,ex,c,gam,dim,sep,m)
+        B=GenB(gam,N,c,dim,m)
+        print('El valor maximo de B es:',np.max(np.abs(B)))
+        xs = Gmres(A, B, x0,nmax,tol)
+        print('El valor máximo de xs es:',np.max(xs))
 
-    gam=gam+xs
-    sumg=0.0
-    for l in range(0,sep):
-        poli=pol[l,:]
-        sumg=sumg+poli*gam[l]
-    gaf=sumg
+        gam=gam+xs
+        sumg=0.0
+        for l in range(0,sep):
+            poli=pol[l,:]
+            sumg=sumg+poli*gam[l]
+        gaf=sumg
 
-    #resta=np.allclose(gaf, anterior, rtol=1e-06, atol=1e-07, equal_nan=True)
-    #print('diferencia entre la gamma anterior y la nueva:',resta)
-    if(np.max(np.abs(B))<8e-17):
-        print('se llegó a la solución FINAL')
-        break
-    else:
-        x0=xs
-
+        #resta=np.allclose(gaf, anterior, rtol=1e-06, atol=1e-07, equal_nan=True)
+        #print('diferencia entre la gamma anterior y la nueva:',resta)
+        if(np.max(np.abs(B))<8e-17):
+            print('se llegó a la solución FINAL')
+            break
+        else:
+            x0=xs
+    N=N+1
 np.savetxt('solucion2.txt',np.transpose([gaf]))
 plt.plot(grad,gaf,'g-*')
 plt.plot(grad,gaf1,'r-*')

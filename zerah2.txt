@@ -1,0 +1,702 @@
+se terminó de calcular la matriz de polinomios
+20
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+20.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+21.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+21.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+22.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+22.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+23.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+23.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+24.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+24.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+25.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+25.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+26.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+26.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+27.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+27.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+28.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+28.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+29.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+29.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+30.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+30.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+31.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+31.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+32.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+32.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+33.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+33.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+34.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+34.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+35.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+35.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+36.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+36.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+37.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+37.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+38.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+38.5
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+se llegó a la solución FINAL
+39.0
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
+Iteration: 0     residual = 0.000000000
+Se llegó a la solución
