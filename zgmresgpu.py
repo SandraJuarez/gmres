@@ -12,6 +12,7 @@ import pandas as pd
 from scipy.sparse.linalg import gmres
 from scipy.sparse.linalg import lgmres
 
+from numba import cuda, float32
 
 
 
@@ -19,6 +20,7 @@ from scipy.sparse.linalg import lgmres
 
 
 
+@cuda.jit
 def Gmres(A,B,x0,nm,tol):
     xs=x0
     Q=np.zeros((np.size(B),nm))
@@ -53,6 +55,7 @@ def Gmres(A,B,x0,nm,tol):
             break
     return xs
 
+#@cuda.jit
 def Potencial(b,kp,al,a):
     x = np.linspace(-1, 1, num=sep)
     ang=np.arccos(x)
@@ -63,13 +66,14 @@ def Potencial(b,kp,al,a):
     u=b*np.exp(-kp*r)*(1-np.exp(-al*r))/(r)
     return u
 #vamos a generar la A precondicionada
+@cuda.jit
 def GenA(D,N,ex,c,gam,dim,sep,m):
     A=np.zeros((dim,dim))
     for n in range(0,sep):
         for l in range(0,m):
             A[l,n]=1/(1-(N/(2*l+1))*c[l])*((1-(N/(2*l+1))*c[l])-ex[n]*(N/(2*l+1))*(gam[l]-2*c[l]))
     return A
-
+@cuda.jit
 def GenB(gam,N,c,dim,m):
     B=np.zeros((dim))
     for l in range(0,m):
