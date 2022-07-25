@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 from itertools import product
 from warnings import warn
-from sklearn.datasets import make_spd_matrix
 import matplotlib.pyplot as plt
 import math as mt
 from scipy.special import eval_legendre
@@ -11,14 +10,14 @@ from scipy import integrate
 import pandas as pd
 from scipy.sparse.linalg import gmres
 from scipy.sparse.linalg import lgmres
+from numba import njit
 
 
 
 
 
 
-
-
+#@njit
 def Gmres(A,B,x0,nm,tol):
     xs=x0
     Q=np.zeros((np.size(B),nm))
@@ -63,6 +62,7 @@ def Potencial(b,kp,al,a):
     u=b*np.exp(-kp*r)*(1-np.exp(-al*r))/(r)
     return u
 #vamos a generar la A precondicionada
+#@njit
 def GenA(D,N,ex,c,gam,dim,sep,m):
     A=np.zeros((dim,dim))
     for n in range(0,sep):
@@ -70,23 +70,23 @@ def GenA(D,N,ex,c,gam,dim,sep,m):
             A[l,n]=1/(1-(N/(2*l+1))*c[l])*((1-(N/(2*l+1))*c[l])-ex[n]*(N/(2*l+1))*(gam[l]-2*c[l]))
     return A
 
+#@njit
 def GenB(gam,N,c,dim,m):
     B=np.zeros((dim))
     for l in range(0,m):
         B[l]=-(gam[l]-N/(2*l+1)*(c[l]+gam[l])*c[l])
     return B
 
-sep=int(4001)
+sep=int(401)
 dim=sep
 m=sep
 
 #nuestra primera aproximación a gamma(x)
 #gaf=np.zeros((sep))
-#np.random.seed(0)
-#gaf=np.random.random(dim)
-#gaf=gaf*1e-03
-gaf=np.loadtxt('204mgmcgb.txt',usecols=0,skiprows=1,delimiter=', ')
-gaf1=np.loadtxt('204mgmcgb.txt',usecols=0,skiprows=1,delimiter=', ')
+np.random.seed(0)
+gaf=np.random.random(dim)
+gaf=gaf*1e-03
+#gaf1=np.loadtxt('204mgmcgb.txt',usecols=0,skiprows=1,delimiter=', ')
 #np.random.seed(0)
 #x0=np.random.random(dim)
 #x0=np.loadtxt('20gmcgb.txt',usecols=0,skiprows=1,delimiter=', ')
@@ -146,7 +146,7 @@ for n in range(0,sep):
             D[l,n]=m1*fun
     x1=x1+dx
 #####################################################################################
-nf=40
+nf=25
 ni=20
 au=0.5
 

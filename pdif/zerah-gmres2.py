@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 from itertools import product
 from warnings import warn
-from sklearn.datasets import make_spd_matrix
 import matplotlib.pyplot as plt
 import math as mt
 from scipy.special import eval_legendre
@@ -11,7 +10,7 @@ from scipy import integrate
 import pandas as pd
 from scipy.sparse.linalg import gmres
 from scipy.sparse.linalg import lgmres
-
+from numba import njit,prange,jit
 
 
 
@@ -53,6 +52,7 @@ def Gmres(A,B,x0,nm,tol):
             break
     return xs
 
+
 def Potencial(b,kp,al,a):
     x = np.linspace(-1, 1, num=sep)
     ang=np.arccos(x)
@@ -63,20 +63,22 @@ def Potencial(b,kp,al,a):
     u=b*np.exp(-kp*r)*(1-np.exp(-al*r))/(r)
     return u
 #vamos a generar la A precondicionada
+@njit(parallel=True)
 def GenA(D,N,ex,c,gam,dim,sep,m):
     A=np.zeros((dim,dim))
-    for n in range(0,sep):
+    for n in prange(0,sep):
         for l in range(0,m):
             A[l,n]=1/(1-(N/(2*l+1))*c[l])*((1-(N/(2*l+1))*c[l])-ex[n]*(N/(2*l+1))*(gam[l]-2*c[l]))
     return A
 
+@njit(parallel=True)
 def GenB(gam,N,c,dim,m):
     B=np.zeros((dim))
-    for l in range(0,m):
+    for l in prange(0,m):
         B[l]=-(gam[l]-N/(2*l+1)*(c[l]+gam[l])*c[l])
     return B
 
-sep=int(20001)
+sep=int(10001)
 dim=sep
 m=sep
 
@@ -85,7 +87,18 @@ m=sep
 #np.random.seed(0)
 #gaf=np.random.random(dim)
 #gaf=gaf*1e-03
-gaf=np.loadtxt('220120gmcgb.txt',usecols=0,skiprows=1,delimiter=', ')
+gaf2=np.loadtxt('220120gmcgb.txt',usecols=0,skiprows=1,delimiter=', ')
+@njit(parallel=True)
+def genGaf(gaf2):
+    gaf=np.zeros((sep))
+    for u in prange(0,20001):
+        mod=u%2
+        if mod==0:
+            w=int(u/2)
+            gaf[w]=gaf2[u]
+    return gaf
+gaf=genGaf(gaf2)
+print(gaf)
 #np.random.seed(0)
 #x0=np.random.random(dim)
 #x0=np.loadtxt('20gmcgb.txt',usecols=0,skiprows=1,delimiter=', ')
@@ -116,6 +129,7 @@ tol=1e-9
 u=Potencial(b,kp,al,a)
 
 #vamos a generar una sola vez los polinomios de Legendre que necesitamos y guardarlos en una matriz
+#def GenPol(sep,dim):
 pol=np.zeros((dim,dim))
 x1=-1
 dx=2/sep
@@ -125,6 +139,9 @@ for n in range(0,sep):
     x1=x1+dx
 print('se terminó de calcular la matriz de polinomios')
 #vamos a calcular la matriz Dln
+#@njit(parallel=True)
+#def GenD(sep,dim,pol):
+#pol=GenPol(sep,dim)
 D=np.zeros((dim,dim))
 x1=-1
 dx=2/sep
@@ -133,7 +150,7 @@ for n in range(0,sep):
     for l in range(0,m):
         fun=pol[l,n]
         m1=dx*(2*l+1)/6
-        #m1=dx/3
+            #m1=dx/3
         mod=n%2
         if(mod==0)and(n!=0)and(n!=w):
             D[l,n]=m1*2*fun
@@ -144,6 +161,8 @@ for n in range(0,sep):
         elif(n==w):
             D[l,n]=m1*fun
     x1=x1+dx
+
+#D=GenD(sep,dim,pol)
 #####################################################################################
 nf=120.02
 ni=120
@@ -164,7 +183,7 @@ for sc in range(0,finsc+1):
             cfh=np.exp(gaf-bt*u)-1-gaf
             cfp=np.exp(-bt*u)*(gaf+1)-1-gaf
             cf=s*cfh+(1-s)*cfp
-            ex=np.exp(gaf-bt*u)-1
+            ex=np.exp(-bt*u)*(s*np.exp(gaf)+1-s)-1
             #print(cf)
             #calculamos las sumatorias:
 
@@ -190,6 +209,7 @@ for sc in range(0,finsc+1):
                 sumg=sumg+poli*gam[n]
             gaf=sumg
             name=round(s*100)
+            name2=round(s,2)
             n0=round(N*100)
             t0=str(name)+str(n0)
             if(np.max(np.abs(B))<8e-17):
@@ -197,6 +217,12 @@ for sc in range(0,finsc+1):
                 g=gaf+cf+1
                 pu=np.log(s*np.exp(gaf)+(1-s)*(1+gaf))-gaf
                 np.savetxt(t0+'gmcgb.txt', np.transpose([gaf,cf,g,pu]),delimiter=',   ',header=t0)
+                plt.plot(grad,gaf,'-',markersize=5,label=s)
+                plt.xlabel(r'$\theta$')
+                plt.ylabel(r'$g(\theta)$')
+                plt.title('n='+str(n0)+ ', s='+str(name2))
+                plt.savefig(t0+'g.png')
+                plt.clf()
                 break
             else:
                 x0=xs
