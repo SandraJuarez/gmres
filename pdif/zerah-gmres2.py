@@ -120,7 +120,7 @@ kp=1.0/9.6
 b=1510.01 #amplitud del potencial
 #b=1e-12
 #b=0.0001
-N=20 #número de partículas
+N=120 #número de partículas
 al=1.0/0.1 #alfa
 bt=1
 
